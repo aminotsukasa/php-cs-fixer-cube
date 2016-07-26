@@ -13,4 +13,4 @@ run:
     - | 
      cd ec-cube
      sh ./eccube_install.sh sqlite3
-     vendor/bin/phpunit ||  true
+     vendor/bin/phpunit || true
