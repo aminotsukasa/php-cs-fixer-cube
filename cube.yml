@@ -3,8 +3,7 @@ platform: linux
 image_resource:
   type: docker-image
   source:
-    repository: aminotsukasa
-    tag: php-cs-fixer-ubuntu
+    repository: aminotsukasa/php-cs-fixer-ubuntu
 inputs: 
   - name: ec-cube
 run: 
@@ -13,4 +12,4 @@ run:
     - -exc
     - | 
      cd ec-cube
-     php-cs-fixer fix . || true
+     php-cs-fixer fix .  || true
