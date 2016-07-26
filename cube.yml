@@ -19,4 +19,4 @@ run:
      composer global require fabpot/php-cs-fixer
      ln -s /root/.composer/vendor/bin/php-cs-fixer /usr/bin
      cd ec-cube
-     php-cs-fixer fix .
+     php-cs-fixer fix . || date 
