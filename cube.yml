@@ -13,4 +13,4 @@ run:
     - -exc
     - | 
      cd ec-cube
-     php-cs-fixer  fix . || date 
+     php-cs-fixer  fix . || true
